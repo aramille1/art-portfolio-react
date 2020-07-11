@@ -15,7 +15,7 @@ https://www.iconfinder.com/Makoto_msk */}
 
                 {/* <Link to='/'><img src={logo} alt="store" className="navbar-brand" /></Link> */}
                 <ul className="navbar-nav align-items-center">
-                    <li className="nav-item ml-5">
+                    <li className="nav-item ml-6">
                         <Link to='/' className="nav-link">RAMIL ASSANOV</Link>
                     </li>
                 </ul>
