@@ -13,10 +13,10 @@ export default class Navbar extends Component {
 Creative Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/Makoto_msk */}
 
-                <Link to='/'><img src={logo} alt="store" className="navbar-brand" /></Link>
+                {/* <Link to='/'><img src={logo} alt="store" className="navbar-brand" /></Link> */}
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
-                        <Link to='/' className="nav-link">products</Link>
+                        <Link to='/' className="nav-link">RAMIL ASSANOV</Link>
                     </li>
                 </ul>
                 <Link to='/cart' className="ml-auto">
@@ -32,9 +32,9 @@ https://www.iconfinder.com/Makoto_msk */}
 }
 
 const NavWrapper = styled.nav`
-background: var(--mainBlue);
+background:#d8d7d7;
 .nav-link{ 
-    color: var(--mainWhite) !important;
+    color: #344151 !important;
     font-size: 1.3rem;
     text-transform: capitalize;
 }
